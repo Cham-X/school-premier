@@ -17,14 +17,44 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #fafafa;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* .App {
+  max-width: 85vw;
+  margin: auto;
+} */
+nav {
+  max-width: 85vw;
+  margin: auto;
+}
+
+.App-header {
+  background-color: #fff;
+  width: 100vw;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .55);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+a:hover {
+  color: #32363a;
+}
+
+ul {
+  list-style: none;
 }
