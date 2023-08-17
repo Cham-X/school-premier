@@ -2,6 +2,8 @@ p {
   text-align: center;
   padding: 1rem;
   font-size: 1.1rem;
+  font-weight: bolder;
+  line-height: 1.1rem;
 }
 
 .footerContent {
@@ -11,7 +13,6 @@ p {
   justify-content: space-between;
   max-width: 85vw;
   margin: auto;
-  padding: 1rem;
   white-space: nowrap;
 }
 
