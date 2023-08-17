@@ -24,16 +24,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* .App {
-  max-width: 85vw;
+.App {
+  /* max-width: 85vw; */
   margin: auto;
-} */
+  overflow-x: hidden;
+}
+
 nav {
   max-width: 85vw;
   margin: auto;
 }
 
-.App-header {
+.App-header,
+footer {
   background-color: #fff;
   width: 100vw;
 }
@@ -43,7 +46,8 @@ code {
     monospace;
 }
 
-a {
+a,
+p {
   text-decoration: none;
   color: rgba(0, 0, 0, .55);
   font-weight: bold;

@@ -1,6 +1,6 @@
+import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
 import Navbar from "./components/Navbar";
-import SubNavbar from "./components/SubNavbar";
 
 function App() {
   return (
@@ -8,9 +8,8 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <>
-        <MainContent />
-      </>
+      <MainContent />
+      <Footer />
     </div>
   );
 }
