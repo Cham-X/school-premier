@@ -1,18 +1,10 @@
-p {
-  text-align: center;
-  padding: 1rem;
-  font-size: 1.1rem;
-  font-weight: bolder;
-  line-height: 1.1rem;
-}
-
 .footerContent {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: flex-start;
   justify-content: space-between;
   max-width: 85vw;
-  margin: auto;
+  margin: 3rem auto;
   white-space: nowrap;
 }
 
@@ -31,6 +23,10 @@ p {
 
 .footerSection ul li {
   padding: 0.2rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem;
 }
 
 .footerSection h2,
@@ -38,16 +34,24 @@ p {
   margin: 0;
 }
 
-.socialHandle {
+.socialMediaHandle {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
+}
+
+.lastFooterSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 85vw;
+  margin: 1rem auto;
 }
 
 .Icon {
-  color: #0d6efd;
-  height: 1.5rem;
-  width: 1.5rem;
-  border-radius: 5%;
+  color: #e74040;
+  height: 24px;
+  width: 24px;
 }
 
 @media screen and (max-width:768px) {

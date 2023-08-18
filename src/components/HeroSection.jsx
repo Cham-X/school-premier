@@ -3,8 +3,9 @@ import styles from "./HeroSection.module.CSS";
 
 function HeroSection() {
   return (
-    <div>
-
+    <div className={styles.hero}>
+      <div className={styles.overlay}></div>
+      
     </div>
   );
 }

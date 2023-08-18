@@ -5,7 +5,7 @@ import EcommerceSection from './EcommerceSection';
 
 const MainContent = () => {
   return (
-    <main>
+    <main className={styles.main}>
       <Hero />
       <EcommerceSection />
     </main>
