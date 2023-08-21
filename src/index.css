@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: system-ui,
@@ -31,8 +36,16 @@ body {
 }
 
 nav {
-  max-width: 85vw;
-  margin: auto;
+  width: 85vw;
+  margin: 1rem 5%;
+  position: fixed;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .App-header,
@@ -49,8 +62,6 @@ code {
 a,
 p {
   text-decoration: none;
-  color: rgba(0, 0, 0, .55);
-  font-weight: bold;
   font-size: 14px;
   line-height: 24px;
 }

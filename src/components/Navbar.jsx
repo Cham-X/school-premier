@@ -1,30 +1,30 @@
 import React from 'react';
 import hamburger from "../assets/images/hamburger icon.svg";
 import styles from "./Navbar.module.css";
-import SubNavbar from './SubNavbar';
+import Button from './Resources/Button';
+import Arrow from "../assets/images/icn arrow-right .icn-xs.png"
 
 function Navbar() {
   return (
     <nav>
       <div className={ styles.navbar }>
-        <h1>Captain Design</h1>
+        <h3>School-Premier-Shamsudeen</h3>
         <button>
           <img src={ hamburger } alt="hamburger" width={ 27 } height={ 27 } />
         </button>
         <div className={ styles.navLink }>
           <ul>
-            <li><a href="/#">Templates</a></li>
-            <li><a href="/#">Ui Kits</a></li>
-            <li><a href="/#">Plugins <span className={ styles.greenbg }>NEW</span></a></li>
+            <li><a href="/#">Home</a></li>
+            <li><a href="/#">Products</a></li>
+            <li><a href="/#">Pricing</a></li>
+            <li><a href="/#">Contect</a></li>
           </ul>
           <ul>
-            <li><a href="/#">Blog</a></li>
-            <li><a href="/#">About</a></li>
-            <li><a href="/#">Contact</a></li>
+            <li><a href="/#">Login</a></li>
+            <Button type="submit">JOIN US <span><img src={Arrow} alt="arrow" /></span></Button>
           </ul>
         </div>
       </div>
-      <SubNavbar />
     </nav>
   );
 }

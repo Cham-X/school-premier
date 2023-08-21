@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from "./MainContent.module.css";
-import Hero from './HeroSection';
-import EcommerceSection from './EcommerceSection';
+import  HeroSection from "./HeroSection"
+// import EcommerceSection from './EcommerceSection';
 
 const MainContent = () => {
   return (
     <main className={styles.main}>
-      <Hero />
-      <EcommerceSection />
+      <HeroSection/>
+      {/* <EcommerceSection /> */}
     </main>
   );
 };

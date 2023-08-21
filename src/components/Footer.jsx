@@ -48,9 +48,9 @@ const Footer = () => {
         <div className={styles.footerSection}>
           <h3>Get In Touch</h3>
           <ul>
-            <li><span><img src={Phone} alt="phone" /></span><span>(480) 555-0103</span></li>
-            <li><span><img src={Map} alt="phone" /></span>4517 Washington Ave. Manchester,Kentucky 39495<span></span></li>
-            <li><span><img src={Message} alt="phone" /></span><span>debra.holt@example.com</span></li>
+            <li><span><img src={Phone} alt="phone" /></span><p><span>(480) 555-0103</span></p></li>
+            <li><span><img src={Map} alt="phone" /></span><p><span>4517 Washington Ave. Manchester,Kentucky 39495</span></p></li>
+            <li><span><img src={Message} alt="phone" /></span><p><span>debra.holt@example.com</span></p></li>
           </ul>
         </div>
       </div>

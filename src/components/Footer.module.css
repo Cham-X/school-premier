@@ -8,6 +8,10 @@
   white-space: nowrap;
 }
 
+footer a, footer p{
+  color: #737373;
+}
+
 .footerSection {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,9 @@
+.button{
+    background-color: #FF6551;
+    color: #fff;
+    padding: 0.7rem 1.3rem;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+}
