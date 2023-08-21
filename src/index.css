@@ -37,7 +37,7 @@ body {
 
 nav {
   width: 100%;
-  padding: 1rem 5rem;
+  padding: 1rem 9rem;
   position: fixed;
   color: #fff;
   display: flex;
@@ -50,11 +50,15 @@ nav {
 
 footer {
   background-color: #fff;
-  padding: 3rem 5rem;
+  padding: 3rem 9rem;
   width: 100%;
 }
 
-
+@media screen and (max-width:780px) {
+  nav,footer{
+    padding: 1rem 3rem;
+  }
+}
 @media screen and (max-width:450px) {
   nav,footer{
     padding: 1rem;

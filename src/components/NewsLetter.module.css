@@ -1,4 +1,4 @@
-.NewsLetterSection{
+.NewsLetterSection {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -11,29 +11,28 @@
     background-color: #fff;
 }
 
-.NewsLetterSection p{
+.NewsLetterSection p {
     color: gray;
 }
 
-.NewsLetterSection p:first-child{
-        color:#FF6551;
-
+.NewsLetterSection p:first-child {
+    color: #FF6551;
 }
 
 
 
-.formInput{
+.formInput {
     display: flex;
     align-items: center;
     justify-content: center;
     min-width: 40vw;
 }
 
-.formInput p:first-child{
+.formInput p:first-child {
     color: #fff;
 }
 
-#email{
+#email {
     height: 2.9rem;
     width: 80%;
     display: block;
@@ -43,7 +42,12 @@
 }
 
 @media screen and (max-width:780px) {
-    .formInput{
+    .formInput {
         min-width: 80vw;
+    }
+}
+@media screen and (max-width:460px) {
+    .formInput {
+        min-width: 90vw;
     }
 }
