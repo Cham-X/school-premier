@@ -1,10 +1,13 @@
 .heroSpace{
-    min-width: 100vw;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     background-image: url("../assets/images//hero-2-cover.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .overlay{
@@ -23,17 +26,16 @@
     justify-content: center;
     text-align: center;
     gap: 1.3rem;
-    max-width: 100vw;
-    padding: 17% ;
+    width: 20rem;
 }
 
 .heroContent h1, .heroContent p{
     color: #fff;
-    z-index: 9;
+    z-index: 1
 }
 
 .heroContent h1{
-   font-size: 2.5em;
+   font-size: 2.5rem;
 }
 
 .heroContent p{
@@ -41,21 +43,13 @@
 }
 
 @media screen and (width:768px) {
-    .heroContent{
-        padding:20rem 2rem;
-    }
     .heroContent h1{
-        font-size: 2.0em;
+        font-size: 2.0rem;
     }
 }
 
 @media screen and (width:460px) {
-    .heroContent{
-        gap: 1rem;
-        max-width: 100vw;
-        padding: 17rem;
-    }
-    .heroContent h1{
+    /* .heroContent h1{
         font-size: 0.5rem;
-    }
+    } */
 }

@@ -1,0 +1,49 @@
+.NewsLetterSection{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.NewsLetterSection p{
+    color: gray;
+}
+
+.NewsLetterSection p:first-child{
+        color:#FF6551;
+
+}
+
+
+
+.formInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40vw;
+}
+
+.formInput p:first-child{
+    color: #fff;
+}
+
+#email{
+    height: 2.9rem;
+    width: 80%;
+    display: block;
+    background-color: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    padding: 1rem;
+}
+
+@media screen and (max-width:780px) {
+    .formInput{
+        min-width: 80vw;
+    }
+}

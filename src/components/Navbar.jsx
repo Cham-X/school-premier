@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav>
       <div className={ styles.navbar }>
-        <h3>School-Premier-Shamsudeen</h3>
+        <h3>School-Premier <br /> Shamsudeen</h3>
         <button>
           <img src={ hamburger } alt="hamburger" width={ 27 } height={ 27 } />
         </button>

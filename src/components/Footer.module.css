@@ -3,8 +3,6 @@
   grid-template-columns: repeat(5, 1fr);
   align-items: flex-start;
   justify-content: space-between;
-  max-width: 85vw;
-  margin: 3rem auto;
   white-space: nowrap;
 }
 
@@ -48,8 +46,7 @@ footer a, footer p{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: 85vw;
-  margin: 1rem auto;
+  padding-top: 2rem;
 }
 
 .Icon {

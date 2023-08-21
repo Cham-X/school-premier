@@ -30,14 +30,14 @@ body {
 }
 
 .App {
-  /* max-width: 85vw; */
+
   margin: auto;
   overflow-x: hidden;
 }
 
 nav {
-  width: 85vw;
-  margin: 1rem 5%;
+  width: 100%;
+  padding: 1rem 5rem;
   position: fixed;
   color: #fff;
   display: flex;
@@ -48,10 +48,17 @@ nav {
   z-index: 1;
 }
 
-.App-header,
 footer {
   background-color: #fff;
-  width: 100vw;
+  padding: 3rem 5rem;
+  width: 100%;
+}
+
+
+@media screen and (max-width:450px) {
+  nav,footer{
+    padding: 1rem;
+  }
 }
 
 code {
