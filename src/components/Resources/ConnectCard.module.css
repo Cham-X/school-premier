@@ -1,0 +1,23 @@
+.connectCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    width: 17rem;
+    height: 19rem;
+    border-radius: 2rem;
+    box-shadow: 19px 27px 22px 12px rgba(0,0,0,0.1);
+}
+
+.connectCard img{
+ width: 100%;
+ height: 85%;
+ border-radius: 2rem;
+}
+
+.cardContent ul{
+    display: flex;
+    gap: 0.5rem;
+}

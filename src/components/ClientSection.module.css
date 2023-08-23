@@ -35,7 +35,10 @@
   background-color:#FF6551;
 }
 
-
+.videoImage{
+  width: 50%;
+  
+}
 
 
 @media screen and (max-width:768px) {
@@ -43,6 +46,11 @@
   display: flex;
   padding: 3rem;
   flex-direction: column;
+  gap: 1.5rem;
+}
+
+.videoImage{
+  width: 75%;
 }
 
 .clientSectionLeft{
@@ -54,4 +62,11 @@
   height:30%;
 }
 
+}
+
+@media screen and (max-width:450px) {
+  .videoImage{
+    height: 65%;
+    width: 95%;
+  }
 }

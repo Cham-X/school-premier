@@ -14,7 +14,7 @@ export default function ClientSection() {
             Newtonian mechanics </p>
           <p className={styles.learnMore}>Learn More <span><img src={greaterThan} alt="" /></span></p>
         </article>
-      <img src={videoImage} alt="videoImage" />
+    <img src={videoImage} alt="videoImage" className={styles.videoImage} />
  </section>
   )
 }

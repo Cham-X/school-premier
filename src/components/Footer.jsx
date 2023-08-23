@@ -49,7 +49,7 @@ const Footer = () => {
           <h3>Get In Touch</h3>
           <ul>
             <li><span><img src={Phone} alt="phone" /></span><p><span>(480) 555-0103</span></p></li>
-            <li><span><img src={Map} alt="phone" /></span><p><span>4517 Washington Ave. Manchester,Kentucky 39495</span></p></li>
+            <li><span><img src={Map} alt="phone" /></span><p><span>4517 Washington Ave. Manchester,<br />Kentucky 39495</span></p></li>
             <li><span><img src={Message} alt="phone" /></span><p><span>debra.holt@example.com</span></p></li>
           </ul>
         </div>
