@@ -1,6 +1,51 @@
-.users{
+.ConnectSection{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem 9rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+.users{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
     gap: 1.5rem;
+}
+.team{
+    text-align: left;
+}
+
+.team h1 {
+    color: #252b42;
+}
+
+.greyText{
+    color: grey;
+}
+
+.pinkText{
+  color: #FF6551;
+}
+
+@media screen and (max-width:768px) {
+    .ConnectSection{
+        height: auto;
+        padding: 3rem;
+        align-items: center;
+    }
+    .users{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:450px) {
+    .users{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }

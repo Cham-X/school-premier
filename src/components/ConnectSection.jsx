@@ -8,14 +8,18 @@ import styles from "./ConnectSection.module.css"
 
 export default function ConnectSection() {
   return (
-    <div className={styles.ConnectSection}>
-
+    <section className={styles.ConnectSection}>
+      <div className={styles.team}>
+        <p className={styles.pinkText}>Team</p>
+        <h1>Get Quality Education</h1>
+        <p className={styles.greyText}>Problems trying to resolve the conflict between <br /> the two major realms of Classical physics: Newtonian mechanics </p>
+      </div>
       <div className={styles.users}>
           <ConnectCard cardImage={ User1} cardName={"Julian Jameson"}/>
           <ConnectCard cardImage={ User2} cardName={"Julian Jameson"}/>
           <ConnectCard cardImage={ User3} cardName={"Julian Jameson"}/>
         <ConnectCard cardImage={User4} cardName={"Julian Jameson"} />
         </div>
-    </div>
+    </section>
   )
 }

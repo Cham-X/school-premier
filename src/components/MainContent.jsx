@@ -5,6 +5,7 @@ import NewsLetter from './NewsLetter';
 import ClientSection from './ClientSection';
 import ClientMatterSection from './ClientMatterSection';
 import ConnectSection from './ConnectSection';
+import TeachersSection from './TeachersSection';
 
 
 const MainContent = () => {
@@ -13,6 +14,7 @@ const MainContent = () => {
       <HeroSection />
       <ClientMatterSection/>
       <ClientSection />
+      <TeachersSection/>
       <ConnectSection/>
       <NewsLetter/>
     </main>
