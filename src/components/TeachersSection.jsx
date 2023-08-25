@@ -7,8 +7,9 @@ import teacherImage3 from  "../assets/images/testimonial-user-cover-169.png"
 
 const TeachersSection = () => {
     return (
-        <section className={styles.teachersSection}>
-      <div className={styles.team}>
+    <section className={styles.teachersSection}>
+      <div className={styles.teachersSectionContent}>
+        <div className={styles.team}>
         <p className={styles.pinkText}>Practice Advice</p>
         <h1>Our Experts Teacher</h1>
         <p className={styles.greyText}>Problems trying to resolve the conflict between <br /> the two major realms of Classical physics: Newtonian mechanics </p>
@@ -18,6 +19,7 @@ const TeachersSection = () => {
         <TeacherCard teacherImage={teacherImage2} />
         <TeacherCard teacherImage={teacherImage3}/>
         </div>
+      </div>
     </section>
     );
 }

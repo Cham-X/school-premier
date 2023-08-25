@@ -5,19 +5,25 @@
   color: #fff;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   text-align: left; 
-  padding: 1rem 9rem;
 
+}
+.ClientSectionContent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
 }
 
 .clientSectionLeft{
- display: flex;
- flex-direction: column;
- align-items: flex-start;
- justify-content: space-between;
- width: 25%;
- height: 40%;
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 35%;
+    height: 40%;
 }
 
 
@@ -42,15 +48,16 @@
 
 
 @media screen and (max-width:768px) {
-.clientSection{
+.ClientSectionContent{
   display: flex;
   padding: 3rem;
   flex-direction: column;
-  gap: 1.5rem;
+  width: 100%;
+  gap: 2rem;
 }
 
 .videoImage{
-  width: 75%;
+  width: 100%;
 }
 
 .clientSectionLeft{
@@ -65,8 +72,12 @@
 }
 
 @media screen and (max-width:450px) {
-  .videoImage{
-    height: 65%;
+  .ClientSectionContent{
     width: 95%;
+    height: auto;
+  }
+  .videoImage{
+    height: 70%;
+    width: 100%;
   }
 }

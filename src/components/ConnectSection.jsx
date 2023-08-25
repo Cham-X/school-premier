@@ -9,6 +9,7 @@ import styles from "./ConnectSection.module.css"
 export default function ConnectSection() {
   return (
     <section className={styles.ConnectSection}>
+      <div className={styles.ConnectSectionContent}>
       <div className={styles.team}>
         <p className={styles.pinkText}>Team</p>
         <h1>Get Quality Education</h1>
@@ -20,6 +21,7 @@ export default function ConnectSection() {
           <ConnectCard cardImage={ User3} cardName={"Julian Jameson"}/>
         <ConnectCard cardImage={User4} cardName={"Julian Jameson"} />
         </div>
+      </div>
     </section>
   )
 }
