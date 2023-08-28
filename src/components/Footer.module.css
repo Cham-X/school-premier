@@ -4,6 +4,8 @@
   align-items: flex-start;
   justify-content: space-between;
   white-space: nowrap;
+  padding: 5rem 0;
+
 }
 
 footer a, footer p{
@@ -59,6 +61,9 @@ footer a, footer p{
   .footerContent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 5rem 0;
+    gap: 1rem;
+
   }
 }
 

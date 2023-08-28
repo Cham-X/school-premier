@@ -1,12 +1,11 @@
 .clientSection {
   background-color: #252b42;
-  width: 100vw;
-  height: 100vh;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: left; 
+  padding: 7rem 0;
 
 }
 .ClientSectionContent{
@@ -74,7 +73,6 @@
 @media screen and (max-width:450px) {
   .ClientSectionContent{
     width: 95%;
-    height: auto;
   }
   .videoImage{
     height: 70%;
