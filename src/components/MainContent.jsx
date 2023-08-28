@@ -1,17 +1,17 @@
 import React from 'react';
 import styles from "./MainContent.module.css";
-import  HeroSection from "./HeroSection"
 import NewsLetter from './NewsLetter';
 import ClientSection from './ClientSection';
 import ClientMatterSection from './ClientMatterSection';
 import ConnectSection from './ConnectSection';
 import TeachersSection from './TeachersSection';
+import Hero from './Hero';
 
 
 const MainContent = () => {
   return (
     <main className={styles.main}>
-      <HeroSection />
+      <Hero/>
       <ClientMatterSection/>
       <ClientSection />
       <TeachersSection/>

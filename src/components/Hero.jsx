@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from "./HeroSection.module.css"
+import styles from "./Hero.module.css"
 import Button from './Resources/Button';
 
-function HeroSection() {
-  return (
-    <section className={styles.heroSpace}>
+const Hero = () => {
+    return (
+        <section className={styles.heroSpace}>
       <div className={styles.overlay}></div>
       <div className={styles.heroContent}>
          <p>Welcome</p>
@@ -13,7 +13,7 @@ function HeroSection() {
          <Button><p>Join Us</p></Button>
       </div>
     </section>
-  );
+    );
 }
 
-export default HeroSection;
+export default Hero;
