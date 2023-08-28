@@ -39,7 +39,6 @@
 
 @media screen and (max-width:768px) {
     .teachersSection{
-        height: auto;
         padding: 3rem;
         align-items: center;
     }
@@ -47,9 +46,16 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+.teachersSectionContent{
+    align-items: center;
+}
 }
 
 @media screen and (max-width:450px) {
+    .teachersSection{
+        padding: 1rem;
+        width: 95%;
+    }
     .teacher{
         display: grid;
         grid-template-columns: repeat(1,1fr);

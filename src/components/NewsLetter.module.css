@@ -41,11 +41,20 @@
 }
 
 @media screen and (max-width:780px) {
+    .NewsLetterSection{
+        width: 95%;
+    }
     .formInput {
         min-width: 80vw;
     }
 }
 @media screen and (max-width:460px) {
+    .subscribe{
+        font-size: 1rem;
+    }
+    .NewsLetterSection{
+        padding: 1rem;
+    }
     .formInput {
         min-width: 90vw;
     }

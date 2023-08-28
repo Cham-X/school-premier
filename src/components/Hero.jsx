@@ -8,8 +8,8 @@ const Hero = () => {
       <div className={styles.overlay}></div>
       <div className={styles.heroContent}>
          <p>Welcome</p>
-         <h1>HIGH QUALITY  COURSES </h1>
-         <p>Every day brings with it a fresh set of learning possibilities.</p>
+         <h1>HIGH QUALITY <br /> COURSES </h1>
+         <p>Every day brings with it a fresh set of learning <br /> possibilities.</p>
          <Button><p>Join Us</p></Button>
       </div>
     </section>

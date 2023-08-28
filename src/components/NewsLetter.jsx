@@ -13,7 +13,7 @@ export default function NewsLetter() {
           </div>
           <div className={styles.formInput}>
               <input type="email" name="email" id={styles.email} placeholder='Your Email'/>
-              <Button><p>Subcribe</p></Button>
+              <Button><p className={styles.subscribe}>Subcribe</p></Button>
           </div>
   </section>
   )

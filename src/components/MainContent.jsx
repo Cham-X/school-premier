@@ -6,12 +6,14 @@ import ClientMatterSection from './ClientMatterSection';
 import ConnectSection from './ConnectSection';
 import TeachersSection from './TeachersSection';
 import Hero from './Hero';
+import QualitySection from './QualitySection';
 
 
 const MainContent = () => {
   return (
     <main className={styles.main}>
-      <Hero/>
+      <Hero />
+      <QualitySection/>
       <ClientMatterSection/>
       <ClientSection />
       <TeachersSection/>

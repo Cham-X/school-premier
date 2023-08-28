@@ -72,6 +72,7 @@
 
 @media screen and (max-width:450px) {
   .ClientSectionContent{
+    padding: 1rem;
     width: 95%;
   }
   .videoImage{
