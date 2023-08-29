@@ -7,6 +7,7 @@ import ConnectSection from './ConnectSection';
 import TeachersSection from './TeachersSection';
 import Hero from './Hero';
 import QualitySection from './QualitySection';
+import PackageSection from './PackageSection';
 
 
 const MainContent = () => {
@@ -16,6 +17,7 @@ const MainContent = () => {
       <QualitySection/>
       <ClientMatterSection/>
       <ClientSection />
+      <PackageSection/>
       <TeachersSection/>
       <ConnectSection/>
       <NewsLetter/>

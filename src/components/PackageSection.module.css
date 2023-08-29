@@ -1,0 +1,63 @@
+.packageSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.packageSectionContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 7rem 0;
+    gap: 4rem;
+}
+
+.team{
+    text-align: left;
+}
+
+.team h1 {
+    color: #252b42;
+}
+
+.greyText{
+    color: grey;
+}
+
+.pinkText{
+  color: #FF6551;
+}
+
+.teacher{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ justify-content: center;
+ gap: 2rem;
+}
+
+@media screen and (max-width:768px) {
+    .teachersSection{
+        padding: 3rem;
+        align-items: center;
+    }
+    .teacher{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+.teachersSectionContent{
+    align-items: center;
+}
+}
+
+@media screen and (max-width:450px) {
+    .teachersSection{
+        padding: 1rem;
+        width: 95%;
+    }
+    .teacher{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
